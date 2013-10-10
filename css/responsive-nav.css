@@ -1,0 +1,43 @@
+/* CSS Document */
+
+
+#nav ul {
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#nav li {
+    display: block;
+    width: 100%;
+}
+.js #nav {
+    clip: rect(0px, 0px, 0px, 0px);
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+}
+#nav.opened {
+    max-height: 9999px;
+}
+.js #nav {
+    max-height: none;
+    position: relative;
+}
+#nav-toggle {
+    display: none;
+}
+button {
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+}
+button.closed {
+    background: none repeat scroll 0 0 red;
+}
+button.opened {
+    background: none repeat scroll 0 0 green;
+}
