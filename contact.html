@@ -36,7 +36,6 @@
 <link rel="stylesheet" href="./css/green.css">
 <!--固定为绿色样式-->
 <link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/uslider.css">
 <!--fancybox-->
 <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox-1.3.4.css" media="screen">
 <!--iealert检测插件-->
@@ -50,7 +49,6 @@
 <script>
 $(document).ready(function() {
   $("body").iealert();
-   $('.banner').unslider();
 });
 
 </script>
@@ -66,28 +64,119 @@ $(document).ready(function() {
 				<div id="nav" style="font-size: 120%; -webkit-transition: max-height 400ms; transition: max-height 400ms; position: relative;" class="ul nav nav-pills text-center span9 closed" aria-hidden="false">
 					<li  style="margin-top:10px;padding:0 0 0 0;"><a href="./index.htm">HOME</a></li>
 					<li  style="margin-top:10px;padding:0 0 0 0;"><a href="./product.html">Product</a></li>
-					<li  style="margin-top:10px;padding:0 0 0 0;"><a href="./service.html">Service</a></li>
+					<li   style="margin-top:10px;padding:0 0 0 0;"><a href="./service.html">Service</a></li>
 					<li  class="active" style="padding:0 0 0 0;"><a href="./contact.html">Contact US</a></li>
 				</div>
 				<a href="./index.htm#" id="nav-toggle" aria-hidden="true">Menu</a></div>
 		</div>
 
 	</div>
-	<div class="sub-navbar">
-		<div class="container">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span4"></div>
-					<div class="span4 offset4"><a href="http://e.weibo.com/u/3118392692"><img src="./img/twitter_logo.jpg" alt="twitter"></a><a  href="javascript:void(0);"><img src="./img/emailus_logo.jpg" alt="EMAIL US"></a></div>
+</div>
+
+
+<ul class="social">
+      <li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>        
+      <li class="facebook"><a href="#emailus" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
+</ul>
+
+
+
+<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade" id="emailus" style="display: none;">
+	<div class="modal-header">
+		<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+		<h3 id="myModalLabel">
+			<input id="textinput"  name="textinput" placeholder="Please Input Message Title" style="width:513px;" type="text">
+		</h3>
+	</div>
+	<div class="modal-body">
+		<textarea name="textarea"  placeholder="Please Input Message Content" id="textarea" style="width: 514px; height: 197px;"></textarea>
+	</div>
+	<div class="modal-footer">
+		<div class="form-actions">
+			<button data-dismiss="modal" class="btn">Close</button>
+			<button class="btn btn-primary">Send message</button>
+		</div>
+	</div>
+</div>
+
+
+<div class="">
+	<div class="container">
+		<div class="row">
+			<aside class="span3">
+				<div class="well">
+					<h4>The Afs Jeep</h4>
+					<hr>
+					<ul class="categories">
+						<li><a href="#1"><span class="badge badge-warning">1</span>商务休闲外套</a></li>
+						<br>
+						<li><a href="#2"><span class="badge badge-warning">2</span>牛仔夹克外套</a></li>
+						<br>
+						<li><a href="#3"><span class="badge badge-info">3</span>商务休闲男裤</a></li>
+						<br>
+						<li><a href="#4"><span class="badge badge-success">4</span>商务休闲西装</a></li>
+						<br>
+					</ul>
+					<hr>
+				</div>
+				<!-- 新闻订阅--></aside>
+			<div class="span9">
+				<div class="row">
+					<div class="span9">
+						<h2><span id="expro-future"><img alt="Logo" title="泛商汇LOGO" src="images/expro-future-logo.png"></span>The Afs Jeep</h2>
+						<p><img class="post-image" alt="泛商汇" src="js/images/afsjeep.jpg"></p>
+						<p>afs jeep（战地吉普）是一个户外休闲的时尚男装品牌，成立于2010年，主要生产高品质军旅户外风格的休闲男装。其产品结合了吉普、休闲、都市、复古、动感等多种元素，采用高档优质的梭织面料，功能实用，高贵大气，让穿着者即使生活在现代的都市中也能亲切地感受到美国荒野西部边疆的精神。
+							
+							今天我们已经远离硝烟战地，但是为自由而战的吉普品牌精神却依然保留到了今天，战场上那种狂野气息被设计师们在服装表现的淋漓尽致。afs jeep品牌正是将原本传统的军装风格经过大胆、干练的改良，摇身变为充满韵律而彰显粗犷个性的现代高端男装，满足了现代都市人的军营情结。追求自由，享受大自然，回归大自然是战地吉普官网的号召。该品牌强调的是：afs jeep(战地吉普)不仅是一种商品，更是一种生活方式，一种生活态度。
+							
+							如今在中国男装市场上，afs jeep是什么牌子不再是一个疑问了，该品牌经过多年的设计创新和苛刻的品质要求、服务至上的方针，早已经受到国内20岁至35岁男人的热捧，成为众多年轻男士首选的休闲男装品牌。如今，在淘宝上我们已经可以轻松地在战地吉普官方旗舰店里买到afs jeep的正品男装了，拥有了它，让我们脱下疲惫的职业装，找到轻松，回归自然。。</p>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="span9">
+						<h3><a id="1">牛仔夹克外套</a></h3>
+						<p>牛仔夹克简介...</p>
+						<p><img class="post-image" alt="image" src="./js/images/item_pic1.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item2.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item3.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item4.jpg"></p>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="span9">
+						<h3><a id="2">商务休闲外套</a></h3>
+						<p>商务休闲外套简介...</p>
+						<p><img class="post-image" alt="image" src="./js/images/item_pic1.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item2.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item3.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item4.jpg"></p>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="span9">
+						<h3><a id="3">商务休闲男裤</a></h3>
+						<p>商务休闲男裤简介...</p>
+						<p><img class="post-image" alt="image" src="./js/images/item6.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item7.jpg"></p>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="span9">
+						<h3><a id="4">商务休闲西装</a></h3>
+						<p>商务休闲西装简介...</p>
+						<p><img class="post-image" alt="image" src="./js/images/item_pic1.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item2.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item3.jpg"></p>
+						<p><img class="post-image" alt="image" src="./js/images/item4.jpg"></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="container">
-	<p>
-		<img src="imgclothes/contactus.jpg"/>
-	</p>
 </div>
 <footer>
 	<div class="container">

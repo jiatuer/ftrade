@@ -36,7 +36,6 @@
 <link rel="stylesheet" href="./css/green.css">
 <!--固定为绿色样式-->
 <link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/uslider.css">
 <!--fancybox-->
 <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox-1.3.4.css" media="screen">
 <!--iealert检测插件-->
@@ -50,7 +49,6 @@
 <script>
 $(document).ready(function() {
   $("body").iealert();
-   $('.banner').unslider();
 });
 
 </script>
@@ -73,19 +71,37 @@ $(document).ready(function() {
 		</div>
 
 	</div>
-	<div class="sub-navbar">
-		<div class="container">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span4"></div>
-					<div class="span4 offset4"><a href="http://e.weibo.com/u/3118392692"><img src="./img/twitter_logo.jpg" alt="twitter"></a><a  href="javascript:void(0);"><img src="./img/emailus_logo.jpg" alt="EMAIL US"></a></div>
-				</div>
-			</div>
+</div>
+
+
+<ul class="social">
+      <li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>        
+      <li class="facebook"><a href="#emailus" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
+</ul>
+
+
+
+<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade" id="emailus" style="display: none;">
+	<div class="modal-header">
+		<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+		<h3 id="myModalLabel">
+			<input id="textinput"  name="textinput" placeholder="Please Input Message Title" style="width:513px;" type="text">
+		</h3>
+	</div>
+	<div class="modal-body">
+		<textarea name="textarea"  placeholder="Please Input Message Content" id="textarea" style="width: 514px; height: 197px;"></textarea>
+	</div>
+	<div class="modal-footer">
+		<div class="form-actions">
+			<button data-dismiss="modal" class="btn">Close</button>
+			<button class="btn btn-primary">Send message</button>
 		</div>
 	</div>
 </div>
-<div class="container">
-	<div class="">
+
+
+<div class="">
+	<div class="container">
 		<div class="row">
 			<aside class="span3">
 				<div class="well">
