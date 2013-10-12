@@ -5,17 +5,6 @@
           box-sizing: border-box;
 }
 
-pre {
-  margin: 32px 3px;
-  padding: 32px 18px;
-  border: 1px solid rgb(135,140,134);
-  background: rgba(4, 18, 27, 0.88);
-  color: rgb(240,239,220);
-  box-shadow: 0 0px 8px rgb(88, 84, 57);
-}
-code {
-  font-family: 'Anonymous Pro', monospace;
-}
 
 header .wrapper {
   position: relative;
@@ -32,6 +21,7 @@ p.lead {
     display: table; /* 2 */
 }
 
+
 .clearfix:after {
     clear: both;
 }
@@ -40,6 +30,7 @@ p.lead {
   max-width: 940px;
   margin: 0 auto;
 }
+
 .logo {
   color: rgb(240,239,220);
 }
@@ -51,6 +42,7 @@ p.lead {
   display: inline-block;
   vertical-align: bottom;
 }
+
 .pin {
   position: absolute;
   top: -49px;
@@ -59,6 +51,7 @@ p.lead {
 .note-container {
   margin-top: 10px;
 }
+
 .note {
   padding: 18px 20px;
   background: #eee;
@@ -90,6 +83,7 @@ p.lead {
   width: 30%;
   padding-left: 20px;
 }
+
 .left-col img { width: 100%; height: auto; }
 .text-right { text-align: right; }
 .text-center { text-align: center; }
@@ -99,6 +93,7 @@ p.lead {
 .gallery .cat .cat-indicator {
   margin-top: 10px;
 }
+
 .gallery img { border-radius: 3px; drop-shadow: 0 0 7px rgba(0,0,0,0.5); }
 .gallery .pinned-indicator {
   position: relative;
@@ -115,6 +110,7 @@ p.lead {
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
+
 .panel {
   background: rgba(255,255,255,0.2);
   padding: 20px;
@@ -124,8 +120,9 @@ p.lead {
 .panel h4 {
   margin-top: 0;
 }
-.left-nav .left-col { width: 20%; }
-.left-nav .right-col { width: 80%; }
+
+ .left-col { width: 20%; }
+.right-col { width: 80%; }
 .left-nav .nav {
   margin: 136px 0 0;
   padding: 10px 20px;
@@ -134,7 +131,8 @@ p.lead {
   background: rgba(4, 18, 27, 0.88);        
   border-radius: 3px;
 }
-.nav li { margin-bottom: 5px; }
+
+
 
 .button, .button:visited {
   position: relative;
@@ -149,6 +147,7 @@ p.lead {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
 .button:hover {
   top: 1px;
   left: 1px;
@@ -162,9 +161,7 @@ p.lead {
   box-shadow: none;
 }
 
-.social { position: fixed; top: 265px; left: 10px; list-style: none; padding: 0; margin: 0; }
-.social li { margin: 5px 0 5px; }
-.social span { display: none; }
+
 
 .relative { position: relative; }
 

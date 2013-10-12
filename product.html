@@ -34,38 +34,29 @@
 <link rel="stylesheet" href="./css/responsive-nav.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/jquery_pin_style.css">
-
-
-
-
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
-			<div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="span3"><a href="./index.htm"><img src="" alt="logo" style="width:248px;height:45px;margin-top:10px;padding:0 0 0 0;" class="brand png"></a></div>
 				<!--导航栏--><!--#nav.span9(style="font-size:120%")-->
-				<div id="nav" style="font-size: 120%; -webkit-transition: max-height 400ms; transition: max-height 400ms; position: relative;" class="ul nav pinned nav-pills text-center span9 closed" aria-hidden="false">
-					<li  style="margin-top:10px;padding:0 0 0 0;"><a href="./index.htm">HOME</a></li>
-					<li class="active" style="padding:0 0 0 0;"><a href="./product.html">Product</a></li>
+				<div id="nav" style="font-size: 120%; -webkit-transition: max-height 400ms; transition: max-height 400ms; position: relative;" class="ul nav nav-pills text-center span9 closed" aria-hidden="false">
+					<li style="margin-top:10px;padding:0 0 0 0;"><a href="./index.htm">HOME</a></li>
+					<li  class="active" style="padding:0 0 0 0;"><a href="./product.html">Product</a></li>
 					<li style="margin-top:10px;padding:0 0 0 0;"><a href="./service.html">Service</a></li>
 					<li style="margin-top:10px;padding:0 0 0 0;"><a href="./contact.html">Contact US</a></li>
 				</div>
-				<a href="./index.htm#" id="nav-toggle" aria-hidden="true">Menu</a></div>
+			</div>
 		</div>
-
 	</div>
+
 </div>
-
-
 <ul class="social">
-      <li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>        
-      <li class="facebook"><a href="#emailus" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
+	<li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>
+	<li class="facebook"><a href="#emailus" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
 </ul>
-
-
-
 <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade" id="emailus" style="display: none;">
 	<div class="modal-header">
 		<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -83,16 +74,14 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="">
-	<div class="container">
+<section class="left-nav">
+	<div class="container clearfix">
 		<div class="row">
-			<aside class="span3">
-				<div class="well">
+			<aside class="span3 left-col">
+				<div class="pinned well">
 					<h4>The Afs Jeep</h4>
 					<hr>
-					<ul class="categories">
+					<ul class=" categories">
 						<li><a href="#1"><span class="badge badge-warning">1</span>商务休闲外套</a></li>
 						<br>
 						<li><a href="#2"><span class="badge badge-warning">2</span>牛仔夹克外套</a></li>
@@ -103,8 +92,8 @@
 						<br>
 					</ul>
 					<hr>
-			</div>	
-				</aside>
+				</div>
+			</aside>
 			<div class="span9">
 				<div class="row">
 					<div class="span9">
@@ -162,115 +151,45 @@
 			</div>
 		</div>
 	</div>
+	</div>
+</section>
 </div>
-
-
-
-
-
-<div class="wrapper">
-
-      <section class="left-nav">
-        <div class="container clearfix">
-          <div class="row">
-            <div class="left-col">
-              <div class="pin-wrapper" style="height: 119px;"><ul class="nav  pinned" style="width: 168px; left: 204.5px; top: 0px; position: fixed;">
-                <li><a href="#link-one">Link one</a></li>
-                <li><a href="#link-two">Link two</a></li>
-                <li><a href="#link-three">Link three</a></li>
-              </ul></div>
-            </div>
-            <div class="right-col">
-              <h2>Want a sticky left menu?</h2>
-              <p class="lead">Just like the Webpop documentation? <strong>Pin</strong> it and relax.</p>
-              <p id="link-one">Macaroon donut tiramisu gummies. Jelly halvah oat cake pastry lemon drops apple pie tart. Muffin tart donut tiramisu. Lollipop tiramisu danish cupcake topping macaroon powder. Topping candy carrot cake halvah tiramisu sesame snaps donut lollipop jelly beans. Cotton candy biscuit jelly-o jelly-o. Gummies jelly beans croissant powder. Chocolate cake marzipan halvah cupcake pudding sesame snaps.</p>
-              <p id="link-two">Ice cream chocolate bar sweet roll chupa chups gummies soufflé lemon drops chocolate bar. Pie donut tiramisu gingerbread candy canes carrot cake sweet lollipop tart. Danish wafer pudding oat cake croissant oat cake cupcake. Dessert brownie halvah bear claw oat cake sesame snaps pudding lollipop. Tiramisu bear claw sesame snaps cheesecake powder. Topping gummies soufflé fruitcake cake pudding wafer. Candy pie tiramisu jelly beans.</p>
-              <p id="link-three">Donut sweet jelly chocolate cake icing topping croissant bonbon wafer. Tootsie roll lemon drops tiramisu muffin croissant danish. Sesame snaps soufflé wypas cookie tiramisu. Biscuit biscuit croissant fruitcake danish caramels jelly beans. Wafer muffin gingerbread cookie macaroon. Pastry lollipop croissant sweet cotton candy chocolate cake jelly-o sugar plum. Carrot cake gingerbread ice cream pastry. Gummi bears soufflé bonbon ice cream cake biscuit brownie powder. Gummi bears cake chocolate bar pastry topping gummi bears marzipan soufflé danish.</p>
-              <p>Brownie topping cake oat cake liquorice bear claw candy canes tiramisu apple pie. Pudding oat cake sugar plum sweet roll gingerbread. Cake jelly-o candy canes dragée. Tiramisu sugar plum cupcake cotton candy tootsie roll sweet. Jujubes gingerbread donut fruitcake cheesecake sweet roll soufflé. Tootsie roll donut sesame snaps marzipan candy carrot cake chocolate cake. Tootsie roll applicake chupa chups. Caramels wafer gummies chocolate pastry liquorice apple pie chocolate chocolate. Fruitcake lollipop cupcake apple pie pie dessert powder cotton candy bear claw. Dragée muffin caramels gummi bears sesame snaps wypas cheesecake oat cake.</p>
-              <p>Gummies jelly-o oat cake. Oat cake dessert muffin apple pie carrot cake halvah chocolate cake. Ice cream faworki fruitcake. Lemon drops fruitcake marshmallow oat cake apple pie. Jelly danish pastry liquorice halvah tart gingerbread. Soufflé sweet soufflé biscuit sesame snaps jelly beans liquorice dessert apple pie. Cake ice cream candy toffee croissant sesame snaps topping candy. Halvah dessert macaroon sweet halvah marzipan caramels cake.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-
-
-
-
-
 <footer>
 	<div class="container">
 		<div class="row-fluid">
 			<div class="span7">
 				<p>The AFS Jeep Copyright © 2013 </p>
 			</div>
-			<div class="span3"> <a href="http://www.cnzz.com/stat/website.php?web_id=5252839" target="_blank" title="CNZZ statistics">CNZZ statistics</a>&nbsp;&nbsp; 
-
-</div>
+			<div class="span3"> <a href="http://www.cnzz.com/stat/website.php?web_id=5252839" target="_blank" title="CNZZ statistics">CNZZ statistics</a>&nbsp;&nbsp; </div>
 			<div class="span2"><a href="http://www.miitbeian.gov.cn/" target="_blank">沪ICP备XXXXXX号-2</a></div>
 		</div>
 	</div>
 </footer>
-<!-- Optional, bootstrap javascript library -->
 
-<script src="./js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="./js/jquery.pin.js"></script>
-<script type="text/javascript" src="./js/bootstrap.js"></script>
-<script type="text/javascript" src="./js/jquery.fancybox-1.3.4.pack.js"></script>
-<!--jquery-->
-<!--bootstrap-->
-<!--script(src='js/bootstrap.min.js')-->
-<!--script(src='js/html5-3.6-respond-1.1.0.min.js')--><!--JQuery ui的js-->
-<script type="text/javascript" src="./js/jquery-ui-1.8.21.custom.min.js"></script>
-<!--iealert检测插件-->
-<script src="./js/iealert.js" type="text/javascript"></script>
-<!--响应式导航-->
-<script src="./js/responsive-nav.js" type="text/javascript"></script>
+<!-- Include jQuery and jquery.pin --> 
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script src="./js/jquery.pin.js"></script> 
+<script type="text/javascript" src="./js/bootstrap.js"></script> 
 
-
-
+<!-- PIN ALL THE THINGS! --> 
 <script>
-
-
-$(document).ready(function() {
-    /* Fancybox SetUp */
-	  $("body").iealert();
-	
-    $("a.js-fancybox").fancybox({
-        'transitionIn'  :   'elastic',
-        'transitionOut' :   'elastic',
-        'speedIn'       :   600,
-        'speedOut'      :   200,
-        'overlayShow'   :   true
-    });
-});
-</script>
-    <!-- PIN ALL THE THINGS! -->
-    <script>
       $(".pinned").pin({containerSelector: ".container", minWidth: 940});
-    </script>
+    </script> 
+<!-- That's all - pretty easy, right? --> 
 
-<div id="fancybox-tmp"></div>
-<div id="fancybox-loading">
-	<div></div>
-</div>
-<div id="fancybox-overlay"></div>
-<div id="fancybox-wrap">
-	<div id="fancybox-outer">
-		<div class="fancybox-bg" id="fancybox-bg-n"></div>
-		<div class="fancybox-bg" id="fancybox-bg-ne"></div>
-		<div class="fancybox-bg" id="fancybox-bg-e"></div>
-		<div class="fancybox-bg" id="fancybox-bg-se"></div>
-		<div class="fancybox-bg" id="fancybox-bg-s"></div>
-		<div class="fancybox-bg" id="fancybox-bg-sw"></div>
-		<div class="fancybox-bg" id="fancybox-bg-w"></div>
-		<div class="fancybox-bg" id="fancybox-bg-nw"></div>
-		<div id="fancybox-content"></div>
-		<a id="fancybox-close"></a>
-		<div id="fancybox-title"></div>
-		<a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div>
-</div>
+<!-- Analytics --> 
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18439732-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
 </body>
 </html>
