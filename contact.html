@@ -30,7 +30,6 @@
 <!--bootstrap-->
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" media="screen">
 <link  rel="stylesheet" type="text/css" href="assets/css/docs.css" rel="stylesheet">
-
 <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" media="screen">
 <!--主页框架的主CSS-->
 <link rel="stylesheet" type="text/css" href="./css/base-index.css" media="screen">
@@ -47,19 +46,18 @@
 <!--响应式导航-->
 <link rel="stylesheet" href="./css/responsive-nav.css">
 <link rel="stylesheet" href="./css/style.css">
-
+<link rel="stylesheet" href="./css/main.css">
 <script>
 $(document).ready(function() {
   $("body").iealert();
 });
 
 </script>
-
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
-			<div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="span3"><a href="./index.htm"><img src="" alt="logo" style="width:248px;height:45px;margin-top:10px;padding:0 0 0 0;" class="brand png"></a></div>
 				<!--导航栏--><!--#nav.span9(style="font-size:120%")-->
@@ -71,18 +69,12 @@ $(document).ready(function() {
 				</div>
 				<a href="./index.htm#" id="nav-toggle" aria-hidden="true">Menu</a></div>
 		</div>
-
 	</div>
 </div>
-
-
 <ul class="social">
-      <li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>        
-      <li class="facebook"><a href="#emailus" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
+	<li class="twitter"><a href="http://twitter.com/share?text=Pin%20Things%2C%20with%20jQuery.pin%20http%3A%2F%2Fwebpop.github.com%2Fjquery.pin%20%23webpop%2C%20%23jQuery"><i class="icon-twitter icon-large"></i><span></span></a></li>
+	<li class="facebook"><a href="#emailus1" role="button"   data-toggle="modal"><i class="icon-envelope icon-large"></i><span></span></a></li>
 </ul>
-
-
-
 <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade" id="emailus" style="display: none;">
 	<div class="modal-header">
 		<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -102,25 +94,92 @@ $(document).ready(function() {
 </div>
 
 
-<div class="container" style="height:100%">
-	<h2>About Us</h2>
-	<pre>
-				We work in China,With lots of clothes withe lower price..We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-				We work in China,With lots of clothes withe lower price..
-			</pre>
-
+		
+<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" class="modal hide fade" id="emailus1" style="display: none;">
+	<div class="modal-header">
+		<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+		<h3 id="myModalLabel">
+			Please Contact Us!
+		</h3>
+	</div>
+	<div class="modal-body">
+	    <label>First Name</label>
+	    <input type="text" placeholder="">
+	    <label>Last name</label>
+	    <input type="text" placeholder="">		
+		<label>Email</label>
+	    <input type="text" placeholder="">	
+		<label>Message</label>
+		<textarea name="textarea"  placeholder="Please Input Message Content" id="textarea" style="width: 514px; height: 100px;"></textarea>
+		
+	</div>
+	<div class="modal-footer">
+		<div class="form-actions">
+			<button data-dismiss="modal" class="btn">Close</button>
+			<button class="btn ">Send message</button>
+		</div>
+	</div>
 </div>
+
+
+
+
+<div class="container" style="height:100%">  
+	<div class="row">
+		<div class="span6"><img class="pull-right" alt="logo" src="imgclothes/contactus.jpg"></div>
+		<div class="span5 offset1">
+			<h4><i class="icon icon-leaf"></i>&nbsp;&nbsp;About Us</h4>
+We are specializing in foreign trade clothing sales company,located in ShangHai,China.
+Our core business is to provide clothing with lower price.We make sure much cheeper price
+than you buy on other  e-commerce website(Amazon,ebay etc).On service page you can get the
+detail process. If you are clear about who we are and need business partner like us.Please 
+contact us!
+			<br>
+	</div>
+</div>
+
+
+<article class="container">
+<section class="row" id="contact">
+    	<div class="span12 panel" style="display: block;">
+        	<div class="row">
+                <div class="span12">
+                	<div class="padding-large">
+                    	<h1>Contact</h1>
+                        <div class="muiti-contact">
+                            <span class="email"><email title="" data-toggle="tooltip" data-original-title="Email">X</email><at class="">@</at><sns title="" data-toggle="tooltip" class="" data-original-title="社交网络">xxxx</sns><web title="个人网站" data-toggle="tooltip">.com</web></span>
+                            <!--[if lt IE 9]>
+                            <p class="text-warning">当前浏览器不支持该模块的交互效果，无法动态展示联系方式，建议换用更高级的浏览器。</p>
+                            <p class="text-info">Twitter, Instagram, Path, 新浪微博、腾讯微博和微信的名称为 @dandyweng</p>
+                            <![endif]-->
+                        </div>
+                    </div>
+            	</div>
+                
+                <div class="span12">
+                	<div class="padding-large">
+                    	<div class="sns">
+                            <div class="sns-container">
+                                <a target="_blank" href="http://www.facebook.com/dandyweng"><div title="Facebook" data-toggle="tooltip" class="sns-icon" id="icon-facebook"><img src="http://dandyweng.qiniudn.com/images/sns/facebook.png"></div></a>
+                                <a target="_blank" href="http://twitter.com/dandyweng"><div title="Twitter" data-toggle="tooltip" class="sns-icon" id="icon-twitter"><img src="http://dandyweng.qiniudn.com/images/sns/twitter.png"></div></a>
+                                <a target="_blank" href="http://instagram.com/dandyweng"><div title="" data-toggle="tooltip" class="sns-icon" id="icon-instagram" data-original-title="Instagram"><img src="http://dandyweng.qiniudn.com/images/sns/instagram.png"></div></a>
+                                <a target="_blank" href="javascript:;"><div title="" data-toggle="tooltip" class="sns-icon" id="icon-path" data-original-title="Path"><img src="http://dandyweng.qiniudn.com/images/sns/path.png"></div></a>
+                            </div>
+                            <div class="sns-container">              
+                                <a target="_blank" href="http://weibo.com/dandyweng"><div title="新浪微博" data-toggle="tooltip" class="sns-icon" id="icon-sinaweibo"><img src="http://dandyweng.qiniudn.com/images/sns/SinaWeibo.png"></div></a>
+                                <a target="_blank" href="http://t.qq.com/dandyweng"><div title="腾讯微博" data-toggle="tooltip" class="sns-icon" id="icon-tencentweibo"><img src="http://dandyweng.qiniudn.com/images/sns/TencentWeibo.png"></div></a>
+                                <a target="_blank" href="javascript:;"><div title="微信" data-toggle="tooltip" class="sns-icon" id="icon-wechat"><img src="http://dandyweng.qiniudn.com/images/sns/wechat.png"></div></a>
+                                <a target="_blank" href="javascript:;"><div title="QQ 暂时保密" data-toggle="tooltip" class="sns-icon" id="icon-qq"><img src="http://dandyweng.qiniudn.com/images/sns/qq.png"></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+        </div>
+    </section>
+</article>
+
+
 
 <footer>
 	<div class="container">
@@ -134,11 +193,9 @@ $(document).ready(function() {
 	</div>
 </footer>
 
-
-
-<!-- Optional, bootstrap javascript library -->
-<script type="text/javascript" src="./js/bootstrap.js"></script>
-<script type="text/javascript" src="./js/jquery.fancybox-1.3.4.pack.js"></script>
+<!-- Optional, bootstrap javascript library --> 
+<script type="text/javascript" src="./js/bootstrap.js"></script> 
+<script type="text/javascript" src="./js/jquery.fancybox-1.3.4.pack.js"></script> 
 <script>
 $(document).ready(function() {
     /* Fancybox SetUp */
@@ -151,7 +208,6 @@ $(document).ready(function() {
     });
 });
 </script>
-
 <div id="fancybox-tmp"></div>
 <div id="fancybox-loading">
 	<div></div>
